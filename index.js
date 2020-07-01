@@ -1,6 +1,6 @@
 // Dice rolls.
-const playerOneRoll = Math.floor((Math.random() * 6) + 1);
-const playerTwoRoll = Math.floor((Math.random() * 6) + 1);
+const playerOneRoll = Math.floor(Math.random() * 6) + 1;
+const playerTwoRoll = Math.floor(Math.random() * 6) + 1;
 
 // Variables that represent the Dice images.
 let dice1 = document.querySelector(".img1");
